@@ -3,22 +3,28 @@ user:
   name: Test
   age: 25
   position: Junior
-  skills: 
-    name: skill1
+  skills:
+  - name: skill1
     level: 3
-    descriprion: |
-      "py py ypy la la \n
-      tryam"
+    description: |
+      "описание навыка"
+  - name: skill2
+    level: 4
+    description: |
+      "descr habit"
   address: 
     country: Russia
     city: Moscow
     street: Ivanova
     number: 1
     number2: 5
-  pets:  
-    name: cat
+  pets:
+  - name: cat
     poroda: test111
     mya: yes
+  - name: dog
+    poroda: dogdog
+    mya: no
 
 skill: 
   name: skill1
