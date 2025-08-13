@@ -3,9 +3,22 @@ user:
   name: Test
   age: 25
   position: Junior
-  skills: [writing, coding]
-  address: Earth
-  pets: [cat, dog]
+  skills: 
+    name: skill1
+    level: 3
+    descriprion: |
+      "py py ypy la la \n
+      tryam"
+  address: 
+    country: Russia
+    city: Moscow
+    street: Ivanova
+    number: 1
+    number2: 5
+  pets:  
+    name: cat
+    poroda: test111
+    mya: yes
 
 skill: 
   name: skill1
