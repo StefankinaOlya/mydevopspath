@@ -2,7 +2,26 @@ user:
   admin: yes
   name: Test
   age: 25
-  career: Junior
-  Habits: [writing, coding]
-  home: Earth
+  position: Junior
+  skills: [writing, coding]
+  address: Earth
   pets: [cat, dog]
+
+skill: 
+  name: skill1
+  level: 3
+  descriprion: |
+   "py py ypy la la \n
+   tryam"
+
+address:
+  country: Russia
+  city: Moscow
+  street: Ivanova
+  number: 1
+  number2: 5
+
+pet: 
+  name: cat
+  poroda: test111
+  mya: yes
