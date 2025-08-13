@@ -1,0 +1,8 @@
+user:
+  admin: yes
+  name: Test
+  age: 25
+  career: Junior
+  Habits: [writing, coding]
+  home: Earth
+  pets: [cat, dog]
