@@ -1,2 +1,10 @@
-apiserver: 1
-kind: Pod 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: conv-app
+spec:
+  containers:
+  - name: conv-app
+    image: conv-app
+
+
