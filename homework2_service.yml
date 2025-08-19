@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 
 metadata:
-  name: conv-app
+  name: short-app-port
 spec:
   type: NodePort
   selector: {app: conv-app}

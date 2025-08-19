@@ -7,4 +7,10 @@ metadata:
 spec:
   containers:
   - name: conv-app
-    image: conv-app
+    image: antonlarichev/short-app
+    ports:
+      - containerPort: 80
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
