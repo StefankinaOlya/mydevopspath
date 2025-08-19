@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: conv-app
 spec:
-  labels: mypod
+  labels: "mypod"
   containers:
   - name: conv-app
     image: conv-app
