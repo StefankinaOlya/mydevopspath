@@ -4,6 +4,4 @@ kind: Service
 metadata:
   name: conv-app
 spec:
-  containers:
-  - name: conv-app
-    image: conv-app
+  
