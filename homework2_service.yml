@@ -4,5 +4,8 @@ kind: Service
 metadata:
   name: conv-app
 spec:
-  selector: conv-app
-  port: 31020
+  selector: {app: conv-app}
+  ports: 
+    - port: 3000
+      targetPort: 80
+      nodePort: 31200
